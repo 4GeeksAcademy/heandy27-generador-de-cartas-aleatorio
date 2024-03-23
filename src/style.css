@@ -1,1 +1,41 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.container-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: green;
+}
+
+.card-body {
+  flex: none;
+  height: 600px;
+  width: 400px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.number {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  font-size: 150px;
+}
+
+.symbol-top {
+  display: flex;
+  height: 200px;
+  font-size: 80px;
+  padding-top: -300px;
+}
+.symbol-bottom {
+  display: flex;
+  height: 170px;
+  justify-content: start;
+  align-items: start;
+  font-size: 80px;
+
+  transform: rotate(180deg);
+  padding-bottom: 20px;
+}
